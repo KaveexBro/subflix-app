@@ -1,0 +1,53 @@
+# Dependencies
+node_modules
+.pnpm-store
+
+# Build outputs
+dist
+build
+.next
+out
+
+# Development
+.env.local
+.env.development
+.env.test
+
+# IDE
+.vscode
+.idea
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Documentation
+README.md
+FIREBASE_SETUP.md
+TELEGRAM_SETUP.md
+QUICK_START.md
+ideas.md
+
+# Git
+.git
+.gitignore
+
+# Testing
+.vitest
+coverage
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# Firebase
+firebase-config.template.json
+.firebaserc
+firebase.json
+
+# Server files (not needed for static deployment)
+server/
